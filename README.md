@@ -48,7 +48,7 @@ The idea is to sort the array in non-decreasing order. Now, we know that the lar
     # If no second largest element was found, return -1
     return -1
 
-if __name__ == "__main__":
+    if __name__ == "__main__":
     arr = [12, 35, 1, 10, 34, 1]
     print(getSecondLargest(arr))
 
@@ -92,7 +92,7 @@ Find-Second-Largest-Element-using-Two-Pass-Search-5.webpFind-Second-Largest-Elem
     
     return secondLargest
 
-if __name__ == "__main__":
+    if __name__ == "__main__":
     arr = [12, 35, 1, 10, 34, 1]
     print(getSecondLargest(arr))
 
@@ -139,7 +139,7 @@ Find-Second-Largest-Element-using-One-Pass-Search-1.webpFind-Second-Largest-Elem
 
     return secondLargest
 
-if __name__ == "__main__":
+    if __name__ == "__main__":
     arr = [12, 35, 1, 10, 34, 1]
     print(getSecondLargest(arr))
 
