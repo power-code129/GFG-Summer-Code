@@ -31,7 +31,7 @@ The idea is to sort the array in non-decreasing order. Now, we know that the lar
 
 ## Python program to find second largest element in an array using Sorting
 
-def getSecondLargest(arr):
+    def getSecondLargest(arr):
     n = len(arr)
     
     # Sort the array in non-decreasing order
@@ -71,7 +71,7 @@ Find-Second-Largest-Element-using-Two-Pass-Search-5.webpFind-Second-Largest-Elem
 ## Python program to find the second largest element in the array using two traversals
 
 ## Function to find the second largest element in the array
-def getSecondLargest(arr):
+    def getSecondLargest(arr):
     n = len(arr)
 
     largest = -1
@@ -117,7 +117,7 @@ Find-Second-Largest-Element-using-One-Pass-Search-1.webpFind-Second-Largest-Elem
 ## Python program to find the second largest element in the array using one traversal
 
 ## function to find the second largest element in the array
-def getSecondLargest(arr):
+    def getSecondLargest(arr):
     n = len(arr)
 
     largest = -1
