@@ -44,12 +44,12 @@ So the array becomes arr[] = {3, 4, 5, 6, 1, 2}
 
 ### Python Program to left rotate the array by d positions by rotating one element at a time
 
-   #Function to left rotate array by d positions
-   def rotateArr(arr, d):
-    n = len(arr)
+        #Function to left rotate array by d positions
+        def rotateArr(arr, d):
+        n = len(arr)
   
-    # Repeat the rotation d times
-    for i in range(d):
+        # Repeat the rotation d times
+        for i in range(d):
       
         # Left rotate the array by one position
         first = arr[0]
