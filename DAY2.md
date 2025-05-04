@@ -88,7 +88,7 @@ Move-all-zeros-to-end-using-Two-Traversals-1-copy.webpMove-all-zeros-to-end-usin
 # Python Program to move all zeros to end using two traversals
 
 # Function which pushes all zeros to end
-def pushZerosToEnd(arr):
+    def pushZerosToEnd(arr):
     
     # Count of non-zero elements
     count = 0  
