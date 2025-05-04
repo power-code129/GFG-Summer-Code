@@ -148,10 +148,8 @@ Recursively call the function with the remaining subarray.
 
 
 
-# Python Program to reverse an array using Recursion
-
-# recursive function to reverse an array from l to r
-def reverseArrayRec(arr, l, r):
+# Python Program to reverse an array using Recursion (recursive function to reverse an array from l to r)
+    def reverseArrayRec(arr, l, r):
     if l >= r:
         return
   
@@ -161,12 +159,11 @@ def reverseArrayRec(arr, l, r):
     # Recur for the remaining array
     reverseArrayRec(arr, l + 1, r - 1)
 
-# function to reverse an array
-def reverseArray(arr):
+    def reverseArray(arr):
     n = len(arr)
     reverseArrayRec(arr, 0, n - 1)
 
-if __name__ == "__main__":
+    if __name__ == "__main__":
     arr = [1, 4, 3, 2, 6, 5]
 
     reverseArray(arr)
@@ -186,10 +183,10 @@ The idea is to use inbuilt reverse methods available across different languages.
 
 
 ### Python Program to reverse an array using inbuilt methods function to reverse an array
-def reverse_array(arr):
+    def reverse_array(arr):
     arr.reverse()
 
-if __name__ == "__main__":
+    if __name__ == "__main__":
     arr = [1, 4, 3, 2, 6, 5]
 
     reverse_array(arr)
